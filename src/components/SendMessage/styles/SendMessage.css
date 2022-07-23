@@ -1,0 +1,26 @@
+.sendMessage--bar {
+  width: 100%;
+  height: 36px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.sendMessage--input {
+  width: calc(100% - 45px);
+  height: 100%;
+  border-radius: 15px;
+  margin-right: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.sendMessage--sendButton {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #71bcd8;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.chat--mainContainer {
+  width: 650px;
+  max-width: 90%;
+  height: 780px;
+  max-height: calc(100vh - 70px);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #e8dfc8;
+  overflow: hidden;
+}
+
+.chat--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.messages {
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 2px solid #333333;
+}
+
+.msg {
+  width: 400px;
+  max-width: 90%;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  padding: 7px 10px;
+  display: flex;
+}
+
+.msg.sent {
+  background-color: #54b3d6;
+  float: right;
+}
+
+.msg.sent .msg--text {
+  color: #e8dfc8;
+}
+
+.msg.received {
+  background-color: #fff;
+}
+
+.msg--img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 7px;
+}
+
+.msg--text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 5px;
+}
