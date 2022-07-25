@@ -3,12 +3,12 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDZQoH_1CnZY9aMAgREnqdLTdPT6Ygsi2s",
-  authDomain: "proyecto-simbionte.firebaseapp.com",
-  projectId: "proyecto-simbionte",
-  storageBucket: "proyecto-simbionte.appspot.com",
-  messagingSenderId: "161642418542",
-  appId: "1:161642418542:web:06ee23bcdc360fceca717f",
+  apiKey: "AIzaSyBjnUJNtpzPYLo8mwsnw9umr4xXb85SZBU",
+  authDomain: "live-chat-react-26f41.firebaseapp.com",
+  projectId: "live-chat-react-26f41",
+  storageBucket: "live-chat-react-26f41.appspot.com",
+  messagingSenderId: "740263721806",
+  appId: "1:740263721806:web:e49c1b40e1166cccd2bc1f",
 });
 
 const db = firebaseApp.firestore();
