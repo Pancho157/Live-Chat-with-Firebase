@@ -1,5 +1,5 @@
 import React from "react";
-import { auth } from "../../../bbddConnection/BBDDConnection";
+import { auth } from "../../bbddConnection/BBDDConnection";
 import { GoogleAuthProvider } from "firebase/auth";
 import { FcGoogle } from "react-icons/fc";
 import "./styles/SignIn.css";

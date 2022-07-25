@@ -39,8 +39,8 @@ function ChatRoom() {
           </div>
         ))}
         <div ref={scroll}></div>
-        <SendMessage scroll={scroll} />
       </div>
+        <SendMessage scroll={scroll} />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 .chat--mainContainer {
-  width: 650px;
+  width: 550px;
   max-width: 90%;
   height: 780px;
   max-height: calc(100vh - 70px);
@@ -16,7 +16,7 @@
 
 .messages {
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 120px);
   overflow-y: auto;
   border-radius: 8px;
   margin-bottom: 20px;
