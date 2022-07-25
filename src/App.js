@@ -9,6 +9,7 @@ function App() {
   return (
     <main className="main-section">
       <div>{user ? <ChatRoom /> : <SignIn />}</div>
+      {console.log(user)}
     </main>
   );
 }
