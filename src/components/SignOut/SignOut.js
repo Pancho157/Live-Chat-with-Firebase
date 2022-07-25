@@ -1,5 +1,5 @@
 import React from "react";
-import { auth } from "../../../bbddConnection/BBDDConnection";
+import { auth } from "../../bbddConnection/BBDDConnection";
 import { ImExit } from "react-icons/im";
 import "./styles/SignOut.css";
 

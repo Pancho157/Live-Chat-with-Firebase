@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { db, auth } from "../../../bbddConnection/BBDDConnection";
+import { db, auth } from "../../bbddConnection/BBDDConnection";
 import SendMessage from "../SendMessage/SendMessage";
 import SignOut from "../SignOut/SignOut";
 import "./styles/ChatRoom.css";

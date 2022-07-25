@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { db, auth } from "../../../bbddConnection/BBDDConnection";
+import { db, auth } from "../../bbddConnection/BBDDConnection";
 import firebase from "firebase/compat/app";
 import "./styles/SendMessage.css";
 import { BiSend } from "react-icons/bi";
