@@ -27,23 +27,26 @@ function ChatRoom() {
         <SignOut />
       </div>
       <div className="messages">
-        {messages.map(
-          ({ id, text, photoURL, uid, displayName, creationTime }) => (
+        {messages.map(({ id, text, photoURL, uid, user }) => (
+          <div key={id} className="msg--container">
+            <p
+              className={`msg--user ${
+                uid === auth.currentUser.uid ? "sent" : "received"
+              }`}
+            >
+              <strong>{user}</strong>
+            </p>
+
             <div
-              key={id}
               className={`msg ${
                 uid === auth.currentUser.uid ? "sent" : "received"
               }`}
             >
-              <p>
-                <strong>{displayName}</strong>
-              </p>
               <img className="msg--img" src={photoURL} alt="User" />
               <p className="msg--text">{text}</p>
-              <p>{creationTime}</p>
             </div>
-          )
-        )}
+          </div>
+        ))}
         <div ref={scroll}></div>
       </div>
       <SendMessage scroll={scroll} />
