@@ -69,5 +69,6 @@
   font-size: 1.1rem;
   font-weight: normal;
   font-family: serif;
-  margin-top: 7px;
+  height: 100%;
+  padding: 6px 0;
 }
