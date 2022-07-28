@@ -14,6 +14,25 @@
   justify-content: space-between;
 }
 
+.chat--chatRoomsContainer {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 35px;
+}
+
+.chat--chatRoomsContainer > p {
+  font-family: monospace;
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 4px 8px;
+}
+
+.chat--chatRoom__active {
+  background-color: #8dd7f2;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 .messages {
   width: 100%;
   height: calc(100% - 120px);

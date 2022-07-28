@@ -21,11 +21,16 @@ function ChatRoom() {
   return (
     <div className="chat--mainContainer">
       <div className="chat--header">
-        <div></div>
-        <div></div>
         <h2>Chat Grupal</h2>
         <SignOut />
       </div>
+
+      <div className="chat--chatRoomsContainer">
+        <p className="chat--chatRoom__active">Sala 1</p>
+        <p>Sala 2</p>
+        <p>Sala 3</p>
+      </div>
+
       <div className="messages">
         {messages.map(({ id, text, photoURL, uid, user }) => (
           <div key={id} className="msg--container">
