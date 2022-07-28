@@ -29,6 +29,7 @@ function SendMessage({ scroll }) {
         value={msg}
         onChange={(e) => setMsg(e.target.value)}
         className="sendMessage--input"
+        required
       />
       <button type="submit" className="sendMessage--sendButton">
         <BiSend />
