@@ -20,22 +20,22 @@
   column-gap: 35px;
 }
 
-.chat--chatRoomsContainer > p {
+.chat--chatRoomsContainer > button {
   font-family: monospace;
   font-size: 16px;
   margin: 5px 0;
   padding: 4px 8px;
+  border-radius: 5px;
 }
 
 .chat--chatRoom__active {
   background-color: #8dd7f2;
-  border-radius: 5px;
   font-weight: bold;
 }
 
 .messages {
   width: 100%;
-  height: calc(100% - 120px);
+  height: calc(100% - 160px);
   overflow-y: auto;
   border-radius: 8px;
   margin-bottom: 20px;

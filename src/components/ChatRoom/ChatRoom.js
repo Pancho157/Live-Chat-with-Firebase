@@ -26,9 +26,11 @@ function ChatRoom() {
       </div>
 
       <div className="chat--chatRoomsContainer">
-        <p className="chat--chatRoom__active">Sala 1</p>
-        <p>Sala 2</p>
-        <p>Sala 3</p>
+        <button type="button" className="chat--chatRoom__active">
+          Sala 1
+        </button>
+        <button type="button">Sala 2</button>
+        <button type="button">Sala 3</button>
       </div>
 
       <div className="messages">
